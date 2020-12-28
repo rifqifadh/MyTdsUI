@@ -31,7 +31,7 @@ public struct MyTdsButtonStyle: ButtonStyle {
     case primary, secondary
   }
   
-  func makeBody(configuration: Configuration) -> some View {
+  public func makeBody(configuration: Configuration) -> some View {
     configuration.label
       .padding(.vertical, 12)
       .padding(.horizontal)
