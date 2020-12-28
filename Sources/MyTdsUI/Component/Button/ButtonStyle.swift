@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MyTdsButtonStyle: ButtonStyle {
+public struct MyTdsButtonStyle: ButtonStyle {
   let width: CGFloat?
   let height: CGFloat?
   var buttonState: ButtonState
