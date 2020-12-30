@@ -13,7 +13,7 @@ public struct MyTdsButtonStyle: ButtonStyle {
   var buttonState: ButtonState
   var buttonStyle: ButtonStyle
   
-  init(width: CGFloat = 44,
+  public init(width: CGFloat = 44,
        height: CGFloat = 93,
        buttonState: ButtonState = .active,
        buttonStyle: ButtonStyle = .primary) {
