@@ -23,11 +23,11 @@ public struct MyTdsButtonStyle: ButtonStyle {
     self.buttonStyle = buttonStyle
   }
   
-  enum ButtonState {
+  public enum ButtonState {
     case active, inactive
   }
   
-  enum ButtonStyle {
+  public enum ButtonStyle {
     case primary, secondary
   }
   
